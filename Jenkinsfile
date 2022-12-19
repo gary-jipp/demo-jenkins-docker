@@ -1,6 +1,10 @@
 pipeline {
 
-  agent any
+  // agent any
+
+ agent {
+    label 'linux'
+  }
 
  // agent {
   //   dockerfile true
