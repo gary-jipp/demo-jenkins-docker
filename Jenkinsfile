@@ -3,7 +3,7 @@ pipeline {
   // agent any
 
  agent {
-    label 'linux'
+    label 'docker'
   }
 
  // agent {
