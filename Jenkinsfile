@@ -1,5 +1,3 @@
-env.DOCKER_HOST = 'tcp://docker.home.local:2376'
-
 pipeline {
 
 // agent any
